@@ -171,11 +171,15 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\DatoController.cs" />
     <Compile Include="Controllers\ExperienciasController.cs" />
     <Compile Include="Controllers\HabilidadController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ServicioController.cs" />
+    <Compile Include="Controllers\TestimoniosController.cs" />
     <Compile Include="Controllers\TipoController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -422,6 +426,26 @@
     <Content Include="Views\Experiencias\Edit.cshtml" />
     <Content Include="Views\Experiencias\Index.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Usuarios\Create.cshtml" />
+    <Content Include="Views\Usuarios\Delete.cshtml" />
+    <Content Include="Views\Usuarios\Details.cshtml" />
+    <Content Include="Views\Usuarios\Edit.cshtml" />
+    <Content Include="Views\Usuarios\Index.cshtml" />
+    <Content Include="Views\Dato\Create.cshtml" />
+    <Content Include="Views\Dato\Delete.cshtml" />
+    <Content Include="Views\Dato\Details.cshtml" />
+    <Content Include="Views\Dato\Edit.cshtml" />
+    <Content Include="Views\Dato\Index.cshtml" />
+    <Content Include="Views\Servicio\Create.cshtml" />
+    <Content Include="Views\Servicio\Delete.cshtml" />
+    <Content Include="Views\Servicio\Details.cshtml" />
+    <Content Include="Views\Servicio\Edit.cshtml" />
+    <Content Include="Views\Servicio\Index.cshtml" />
+    <Content Include="Views\Testimonios\Create.cshtml" />
+    <Content Include="Views\Testimonios\Delete.cshtml" />
+    <Content Include="Views\Testimonios\Details.cshtml" />
+    <Content Include="Views\Testimonios\Edit.cshtml" />
+    <Content Include="Views\Testimonios\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
