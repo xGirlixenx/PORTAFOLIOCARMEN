@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8197cb9c9b9e459d9d4abbd410e4daf3" Name="Diagram1">
+        <EntityTypeShape EntityType="portafolioModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.AspNetUsers" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.Datos" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.Experiencia" Width="1.5" PointX="8.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.Habilidad" Width="1.5" PointX="5.25" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.Servicios" Width="1.5" PointX="5.25" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.Testimonio" Width="1.5" PointX="5.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="portafolioModel.Tipo" Width="1.5" PointX="6" PointY="12.125" IsExpanded="true" />
+        <AssociationConnector Association="portafolioModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_Datos_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_Experiencia_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_Habilidad_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_Servicios_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_Testimonio_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.FK_Experiencia_Tipo" ManuallyRouted="false" />
+        <AssociationConnector Association="portafolioModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
